@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    
+  }
+  .formularz_x1{
+    display: flex; 
+    justify-content: center;
+     align-items: center;
+  
+  
+  }
+
+  .formularz{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  form{
+    display: flex;
+    flex-direction: column;
+    width: 550px;  
+   
+   
+  }
+  label{
+    margin-top: 10px;
+   
+  }
+  h1{
+  font-size: 25px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  }
+  .result p{
+     text-align: center;
+     line-height: 20px;
+     text-wrap: wrap;
+  }
+  .result span{
+    text-wrap: wrap;
+  }
+  .result{
+   text-wrap: wrap;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    width: 500px;
+    border-radius: 4px;
+    padding: 12px 20px;
+    background: rgb(56, 139, 235);
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 13px;
+    color: white;
+  }
+  
+  input[type=number],[type=text]{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 5px 0;
+  border: none;
+  box-sizing: border-box;
+  border-radius: 4px;
+  background-color: #f1f1f1;
+  }
+  input[type=button]{
+  background-color: #41ad16;
+  border: none;
+  color: white;
+  border-radius: 4px;
+  padding: 12px 20px;
+  text-decoration: none;
+  font-weight: bold;
+  margin: 8px 0;
+  cursor: pointer;
+  }
+  input[type=reset]{
+    background-color: #da1616;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    padding: 12px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 8px 0;
+    cursor: pointer;
+    }
+  .buttons{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin: 8px 0;
+   
+    flex-direction: row;
+  
+  }
+  #button{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  @media only screen and (max-width: 600px) {
+      .result{
+        max-width: 80%;
+        text-wrap: wrap;
+        overflow-wrap: anywhere;
+  
+      }
+      form{
+        display: flex;
+        flex-direction: column;
+        width: 90%;  
+  
+    }
+  }
